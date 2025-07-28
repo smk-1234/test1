@@ -1,4 +1,115 @@
-안녕하세요.<br>
-만나서 반갑습니다.<br>
-저는 <a href="https://www.dst.ac.kr">대전과학기술대학교</a>  
-<font color=red>홍길동</font>입니다.
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>기술가정 플래닛</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #2db400;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    aside, .quick-links {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    main {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      margin-bottom: 15px;
+    }
+    .notice {
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ddd;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>기술가정 플래닛</strong></div>
+    <nav>
+      <a href="#">홈</a>
+      <a href="#">자료실</a>
+      <a href="#">실습영상</a>
+      <a href="#">자유게시판</a>
+      <a href="#">과제제출</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <aside>
+      <h3>카테고리</h3>
+      <ul>
+        <li>공지사항</li>
+        <li>생활기술</li>
+        <li>진로탐색</li>
+        <li>환경과 에너지</li>
+        <li>가정생활</li>
+      </ul>
+    </aside>
+
+    <main>
+      <h2>공지사항</h2>
+      <div class="notice">
+        <p>[2025-08-01] 여름방학 실습 챌린지 안내</p>
+        <p>[2025-07-25] 기술가정 프로젝트 팀 구성 안내</p>
+      </div>
+      <h2>오늘의 추천 영상</h2>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/CkZfKkZx3CY" frameborder="0" allowfullscreen></iframe>
+    </main>
+
+    <div class="quick-links">
+      <h3>바로가기</h3>
+      <ul>
+        <li><a href="https://www.work.go.kr" target="_blank">워크넷</a></li>
+        <li><a href="https://www.ncs.go.kr" target="_blank">NCS 직무정보</a></li>
+        <li><a href="#">급식표</a></li>
+        <li><a href="#">학사일정</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 기술가정 플래닛 | 지도교사: 주인님 선생님
+  </footer>
+</body>
+</html
